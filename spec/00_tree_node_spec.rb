@@ -132,7 +132,7 @@ describe 'Searchable' do
       expect(nodes.first.dfs('e')).to equal(nodes[4])
     end
   end
-
+  
   describe "#bfs" do
     let(:search_method) { :bfs }
     it_behaves_like 'search method'
